@@ -1,0 +1,15 @@
+my_dict={'Вася':79996665544,'Петя':79991112233,'Маша':911,'Рита':88002220000}
+print(my_dict)
+print(my_dict['Маша'])
+my_dict['Родриго']=555666333
+print(my_dict['Маша'],',',my_dict['Родриго'])
+my_dict['Педро']=+200023311
+my_dict['Алмагуль']=32145698745632124
+del(my_dict['Маша'])
+print(my_dict.get('Маша'))
+print(my_dict)
+my_set={1,1,2,3,1,2,2,3,4,'a','b','c','b','a',True,(0,0,0)}
+print(my_set)
+my_set.add(777),my_set.add((1,1,1))
+my_set.remove((0,0,0))
+print(my_set)
